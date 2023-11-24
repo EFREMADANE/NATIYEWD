@@ -1,0 +1,64 @@
+.nane-section{
+    background-image: url(./nafkote.jpg);
+    height: 900px;
+    width: 110%;
+    color:#0f0e0e;       
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+.nane-section > .header{
+    padding: 2em;
+    font-family: 'roboto slab', serif;
+    background-color: red;
+    width: 600px;
+    height: 50px;
+    border-radius: 2em;
+    text-align: justify;
+}
+.footer {
+    background-image: url(./green1.png);
+height: 200px;
+width: 100%;
+    font-size: 20px;
+    font-style: italic;
+    margin-block-start: 1em;
+    box-shadow: black
+}
+.footer{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 5px solid transparent;
+    transition: 1.5s;
+}
+.footer :hover{
+  border-bottom: solid black;
+
+}
+.letter{
+    color: aliceblue;
+}
+.foooter > .image2 {
+    display: flex;
+    background-image: url(./hale2.JPG);
+    background-size: 200px;
+    width: auto;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-top: -4px;
+    margin-bottom: 2px;
+}
+
+.link-wrapper1 {
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}

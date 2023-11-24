@@ -1,0 +1,86 @@
+h6 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.skewed-header{
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+   
+}
+.skewed-header > .myimage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-5deg);
+    transform-origin: top left;
+
+}
+.skewed-header > .skewed-hearder-wrapper {
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+.skewed-header > .skewed-hearder-wrapper > .skewed-header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.skewed-header > .skewed-hearder-wrapper > .skewed-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 2em;
+}
+.skewed-header > .skewed-hearder-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #cea44c;
+    color: #11122b;
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 3px;
+    transition: 1.5s;
+    text-align: center;
+}
+.skewed-header > .skewed-hearder-wrapper > .skewed-header-content > .heading-wrapper :hover{
+    color: blue;
+}
+.love-letter-to-my-nane > #photo {
+    width: 100px;
+    float: left;
+    margin: 1em;
+}
+.love-letter-to-my-nane > .written-letter {
+    letter-spacing: 1em;
+    height: 20ox;
+}
+.sequare-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+.sequare-wrapper > .squares {
+    width: 1000px;
+}
+
+.sequare-wrapper > .squares > .square {
+    display: grid;
+   margin-top: -4px;
+}
+.square > .img-wrapper img {
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+    text-align: center;
+} 
+.square-text-wraper h1{
+    color: rgb(0, 70, 128);
+}
